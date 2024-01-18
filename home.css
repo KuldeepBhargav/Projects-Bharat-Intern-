@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("https://8f430952.rocketcdn.me/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+
+.logo img{
+    height: 134px;
+    width: 204px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    float: right;
+    top: 65px;
+    right: 60px;
+    
+}
+.btn button{
+    font-size: 20px;
+    font-weight: 1200;
+    margin:auto;
+    background-color: red;
+  
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.navi{
+    display:flex;
+    position: absolute;
+    float: right;
+    top: 70px;
+    right: 250px;
+}
+#language{
+    display: flex;
+    position: absolute;
+    float: right;
+}
+.language{
+    display: flex;
+    position: absolute;
+    float: right;
+    background-color: transparent;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-family:'Netflix Font', sans-serif ;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.navi .language{
+    top: -5px;
+}
+.navi .language option{
+    color: black;
+}
+.heading{
+   color: white;
+   font-size: 3rem;
+   font-weight: bold;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 35vh;
+    left: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Netflix Font', sans-serif;
+}
+.heading2{
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+ }
+ .heading3{
+    color: white;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 10px;
+ }
+ 
+.container .btnn{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 170px;
+}
+ .container .btnn input{
+    width: 350px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid white;
+ }
+ .container .btnn button{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 500px;
+    font-size: 25px;
+ }
